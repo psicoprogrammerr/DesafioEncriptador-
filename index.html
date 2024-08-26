@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagen/x-icon" href="./imagen/logo daniel.webp">
+
+</head>
+
+<body>
+    <!--encabezado-->
+    <header>
+        <a href="#" rel="">
+       <img class="mi_logo" src="/imagenes encriptador/logoPsico.webp" alt="logo Alura">
+        </a>
+    </header>
+    <!--cuerpo-->
+    <main>
+    <section class="encriptador">
+        <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="encriptador_aviso">
+            <p class="texto_exclamacion">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="encriptador_contenedor">
+            <button type="submit" class="boton_encriptar">Encriptar</button>
+            <button type="submit" class="boton_desencriptar">Desencriptar</button>
+        </div>
+    </section>
+
+    <section class="respuesta">
+        <div class="respuesta_contenedor">
+            <img src="./imagenes encriptador/Muñeco.png" alt="imagen muñeco" class="imagen_muñeco">
+            <p class="texto_uno">Ningun Mensaje Fue Encontrado</p>
+            <p class="texto_dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <textarea type="mensaje" class="evaluar" readonly></textarea>
+        <button type="submit" class="boton_copiar">Copiar</button>
+         
+    </section>
+    </main>
+    </footer> 
+    <script src="app.js"></script>
+    
+</body>
+</html>
